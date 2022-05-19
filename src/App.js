@@ -1,24 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import  {Button,Download,Features,SectionWrapper} from './components'
+import asseats from './assets'
 
-function App() {
+const App =()=> {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <>
+  <SectionWrapper title="You own of Nifty NFTs.
+  Start Seling & Growing
+  "
+  description='Byy, store,collect NFTS,
+  exchange & earn crypto .Join 25+ milion people using ProfNet Market'
+  showBtn
+  mockupImg={asseats.homeHero}
+  banner='banner'
+  >
+
+  </SectionWrapper>
+  </>
+  
   );
 }
 
